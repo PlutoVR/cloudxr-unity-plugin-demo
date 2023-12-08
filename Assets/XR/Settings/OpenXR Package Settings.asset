@@ -20,6 +20,26 @@ MonoBehaviour:
   company: Unity
   priority: 0
   required: 0
+--- !u!114 &-8395940237547048899
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e79c2a03fbaa6a468d768b26f393abf, type: 3}
+  m_Name: CxruOpenXRFeature Standalone
+  m_EditorClassIdentifier: 
+  m_enabled: 0
+  nameUi: CloudXR Tuned Pose Capture
+  version: 0.0.1
+  featureIdInternal: com.nvidia.cloudxr.openxrfeature
+  openxrExtensionStrings: XR_KHR_win32_convert_performance_counter_time XR_META_headset_id
+  company: NVIDIA
+  priority: 0
+  required: 0
 --- !u!114 &-7127316376232485716
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -168,6 +188,26 @@ MonoBehaviour:
   featureIdInternal: com.unity.openxr.feature.conformance
   openxrExtensionStrings: XR_EXT_conformance_automation
   company: Unity
+  priority: 0
+  required: 0
+--- !u!114 &-3762404534890152697
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e79c2a03fbaa6a468d768b26f393abf, type: 3}
+  m_Name: CxruOpenXRFeature Android
+  m_EditorClassIdentifier: 
+  m_enabled: 1
+  nameUi: CloudXR Tuned Pose Capture
+  version: 0.0.1
+  featureIdInternal: com.nvidia.cloudxr.openxrfeature
+  openxrExtensionStrings: XR_KHR_win32_convert_performance_counter_time XR_META_headset_id
+  company: NVIDIA
   priority: 0
   required: 0
 --- !u!114 &-2981841800396304790
@@ -446,7 +486,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   features:
   - {fileID: -3980347585570648990}
-  - {fileID: -6989698153358794793}
+  - {fileID: -8395940237547048899}
   - {fileID: 1119784809302820856}
   - {fileID: -8921141282855823978}
   - {fileID: 7373274719194778251}
@@ -473,7 +513,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   features:
   - {fileID: 1326773452179312018}
-  - {fileID: 2762959847381607346}
+  - {fileID: -3762404534890152697}
   - {fileID: -5277482299974741900}
   - {fileID: -2981841800396304790}
   - {fileID: -4518821745252378418}

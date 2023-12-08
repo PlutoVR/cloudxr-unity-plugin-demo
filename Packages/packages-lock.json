@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "com.nvidia.cloudxr.client.unity-plugin": {
-      "version": "file:C:/Users/paul/Downloads/CloudXRClient-UnityPlugin-0.1.0/CloudXRClient-UnityPlugin/com.nvidia.cloudxr.client.unity-plugin.tgz",
+      "version": "file:../Assets/Plugins/com.nvidia.cloudxr.client.unity-plugin.tgz",
       "depth": 0,
       "source": "local-tarball",
       "dependencies": {}
